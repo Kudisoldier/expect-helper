@@ -634,6 +634,43 @@ I.expectMatchesPattern(actual, pattern); // Passes
 I.expectMatchesPattern(actual, { name: 'Doe' }, 'Object does not match the pattern'); // Fails with custom error message
 ```
 
+### I.expectFail
+
+Forces the current test to fail with an optional custom error message.
+
+```js
+I.expectFail(customErrorMsg = 'expect fail')
+```
+
+* `customErrorMsg`: (Optional) Custom error message to display when the assertion fails.
+
+**Example:**
+
+```js
+I.expectFail('This step should not be reached'); // Fails with custom error message
+```
+
+### I.expectOk
+
+Asserts that a value is truthy.
+
+```js
+I.expectOk(actualValue, customErrorMsg = '')
+```
+
+* `actualValue`: The value to check.
+* `customErrorMsg`: (Optional) Custom error message to display if the assertion fails.
+
+**Example:**
+
+```js
+I.expectOk(true); // Passes
+I.expectOk(1); // Passes
+I.expectOk('text'); // Passes
+I.expectOk(false, 'Expected value to be truthy'); // Fails with custom error message
+```
+
+
 ---
 
 This documentation provides a comprehensive overview of the `ExpectHelper` class and its methods. Each method is designed to perform specific assertions, making it easier to write and maintain tests. The examples provided demonstrate how to use each method effectively.
