@@ -15,7 +15,7 @@ Enable it inside codecept conf file:
 {
   helpers: {
     Playwright: {...},
-    Expect: {
+    ExpectHelper: {
       require: '@codeceptjs/expect-helper'
     },
   }
