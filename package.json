@@ -12,12 +12,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeceptjs/expect-helper.git"
+    "url": "git+https://github.com/Kudisoldier/expect-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/codeceptjs/expect-helper/issues"
+    "url": "https://github.com/Kudisoldier/expect-helper/issues"
   },
-  "homepage": "https://github.com/codeceptjs/expect-helper#readme",
+  "homepage": "https://github.com/Kudisoldier/expect-helper#readme",
   "publishConfig": {
     "access": "public"
   },
