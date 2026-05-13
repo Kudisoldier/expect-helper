@@ -1,5 +1,5 @@
 {
-  "name": "@codeceptjs/expect-helper",
+  "name": "Kudisoldier/expect-helper",
   "version": "1.2.0",
   "description": "Expect helper for CodeceptJS",
   "type": "module",
