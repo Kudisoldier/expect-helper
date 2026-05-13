@@ -1,6 +1,6 @@
 {
   "name": "Kudisoldier/expect-helper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Expect helper for CodeceptJS",
   "type": "module",
   "types": "index.d.ts",
